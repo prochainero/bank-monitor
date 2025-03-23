@@ -21,4 +21,4 @@ jobs:
         run: pip install requests beautifulsoup4 schedule
 
       - name: 執行監測程式
-        run: python monitor.py
+        run: script.py
